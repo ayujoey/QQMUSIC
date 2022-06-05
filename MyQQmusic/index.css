@@ -1,0 +1,284 @@
+#header {
+    display: flex;
+    align-items: center;
+    height: 2.96rem;
+  }
+
+  h1{
+    font-size: 1rem;
+  }
+  li {
+    list-style: none;
+}
+  #header #logo {
+    height: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  #header h5{
+      float:left;
+  }
+
+  #header p{
+    float:left;
+}
+  
+  body{
+    font-size: .12rem;
+  }
+  
+  #header .download {
+    display: block;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    padding: 0 0.8rem;
+    text-align: center;
+    font-size: 0.8rem;  
+    color: #575656;
+    border: solid 1px #d8d8d8;
+    border-radius: 999px;
+    box-sizing: border-box;
+    float: right;
+    position: absolute;
+    right: 60px;
+  }
+
+/* 选项卡 */
+.navbar .nav-list {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar .nav-list .nav-item.active {
+  color: #31c27c;
+}
+.navbar .nav-list .nav-item {
+  flex: 1;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  height: 40px;
+  line-height: 40px;
+}
+
+.navbar .nav-list .nav-item.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #31c27c;
+}
+
+.navbar .nav-list .nav-item {
+  flex: 1;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  height: 40px;
+  line-height: 40px;
+}
+
+.footer-logo img{
+  height: 1.5rem;
+}
+
+
+.mod-footer{
+  text-align: center;
+}
+
+.topPart {
+  width: 100%;
+  /* display: none; */
+}
+
+.top-list {
+  width: 100%;
+}
+
+.top-list-title{
+  font-size: 1rem;
+}
+
+.top-list-item {
+  width: 91.467vw;
+  border-radius: 2.667vw;
+}
+
+.top-list-text {
+  width: 56.533vw;
+}
+
+.music-list {
+  padding: 0;
+}
+
+.top-song-list {
+  width: 100%;
+  font-size: 3.2vw;
+}
+
+.top-list-media {
+  position: relative;
+  top: -22.667vw;
+  right: -59.867vw;
+  width: 28.533vw;
+  height: 28.533vw;
+}
+
+.top-list-media img {
+  width: 28.533vw;
+  height: 28.533vw;
+  border-radius: 15%;
+}
+
+.top-list-updata {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2.667vw;
+  color: #fff;
+}
+
+.top-list-view {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.467vw;
+  color: #fff;
+}
+
+.song-artist{
+  color: #d8d8d8;
+}
+
+/* rem */
+
+
+#office-list-box {
+    display: flex;
+    overflow: scroll;
+    padding: 2.667vw 1vw;
+    width: 100%;
+    height: 38.4vw;
+}
+
+#tatsujin-list-box {
+  display: flex;
+  overflow: scroll;
+  padding: 2.667vw 1vw;
+  width: 100%;
+  height: 38.4vw;
+}
+
+#column-list-box {
+  display: flex;
+  overflow: scroll;
+  padding: 2.667vw 1vw;
+  width: 100%;
+  height: 38.4vw;
+}
+
+.display-item {
+    width: 31.2vw;
+    margin: 0 1.667vw;
+    padding-right: 1.667vw;
+}
+
+.display-item-img {
+    float: right;
+    margin: 1.667vw auto;
+    position: relative;
+    width: 29.067vw;
+    height: 29.067vw;
+}
+
+.display-item-img img {
+    border-radius: 1.333vw;
+    width: 29.067vw;
+    height: 29.067vw;
+}
+
+.display-item-cover {
+    float: right;
+    text-align: center;
+    width: 10vw;
+    height: 5.333vw;
+    margin-top: -6vw;
+}
+
+.display-item-cover-count {
+    position: absolute;
+    right: 0.667vw;
+    z-index: 100000;
+    line-height: 2.333vw;
+    font-size: 2.467vw;
+    font-weight: 200;
+    color: rgb(242, 233, 233);
+}
+
+.display-item-title {
+    font-size: 3.133vw;
+    color: rgba(26, 26, 26, 1);
+}
+
+.special-display-item {
+    width: 62.4vw;
+    margin: 0 1.667vw;
+    padding-right: 1.667vw;
+}
+
+.special-display-item-img {
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    width: 60.267vw;
+    height: 33.867vw;
+}
+
+.special-display-item-img img {
+    border-radius: 1.333vw;
+    width: 60.267vw;
+    height: 29.067vw;
+}
+
+.special-display-item-cover {
+    overflow: hidden;
+    position: relative;
+    right: -24px;
+    left: 4.267vw;
+    bottom: 11.6vw;
+    width: 40vw;
+}
+
+.special-display-item-cover img {
+    width: 9.067vw;
+    height: 9.067vw;
+}
+
+.special-display-item-cover-count {
+    position: absolute;
+    right: -20.333vw;
+    bottom: -10px;
+    z-index: 100000;
+    width: 131px;
+    overflow: inherit;
+    height: 48px;
+    text-overflow: ellipsis;
+    line-height: 8.333vw;
+    font-size: 4.267vw;
+    font-weight: 200;
+    color: rgb(237, 231, 231);
+}
